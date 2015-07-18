@@ -14,4 +14,4 @@ title = "Hello Hugo"
 
 # Hello Hugo
 
-I created my new blog. I'm using [Hugo](http://gohugo.io) is written by golang.
+I created my new blog. I'm using a [Hugo](http://gohugo.io) is written by golang.
