@@ -1,0 +1,40 @@
+baseurl = "http://gotokatsuya.github.io"
+languageCode = "ja"
+title = "new Development()"
+paginate = 5
+DisqusShortname = "goka"
+Copyright = "All rights reserved - 2015"
+theme = "casper"
+
+[params]
+  description = "Let's looking for new views"
+  cover = "images/travel.jpg"
+  author = "Katsuya Goto"
+  authorlocation = "Tokyo, Japan"
+  authorwebsite = ""
+  bio= "Android, iOS, Web Engineer, Open source enthusiast."
+  githubName = "gotokatsuya"
+  twitterName = "goka_kun"
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = true
+
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "Github repos"
+  weight = 100
+  pre = "<h3>Follow me</h3>"
+  url = "https://github.com/gotokatsuya"
+
+[[menu.main]]
+  name = "Twitter timeline"
+  weight = 101
+  url = "https://twitter.com/goka_kun"
