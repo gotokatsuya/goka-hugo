@@ -1,4 +1,4 @@
-baseurl = "http://gotokatsuya.github.io"
+baseurl = "http://gotokatsuya.github.io/"
 languageCode = "ja"
 title = "new Development()"
 paginate = 5
