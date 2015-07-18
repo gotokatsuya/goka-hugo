@@ -16,7 +16,7 @@ deployment:
     branch: master
     commands:
       - git clone git@github.com:gotokatsuya/gotokatsuya.github.io public
-      - hugo
+      - hugo -t casper
       - cd public && git add .
       - cd public && git commit -m "[ci skip] publish"
       - cd public && git push origin master
